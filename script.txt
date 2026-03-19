@@ -1,0 +1,57 @@
+X = pd.Series(data["critic_score"])
+y = pd.Series(data["total_sales"])
+plt.figure(figsize=(6, 6))
+plt.scatter(X, y, label='Données réelles')
+
+# Créer une séquence de X qui va du minimum au maximum des données
+# reshape(-1, 1) est nécessaire pour scikit learn
+X_plot = np.linspace(X.min(), X.max(), 100).reshape(-1, 1)
+
+# Prédiction
+y_plot_pred = model.predict(X_plot)
+
+plt.plot(X_plot, y_plot_pred, color='orange', linewidth=2, label='Prédiction (Régression)')
+plt.title("Régression linéaire entre le nb de ventes et le score étoilé")
+plt.xlabel("Score en étoilé")
+plt.ylabel("Nombre total de ventes (en millions)")
+plt.legend()
+plt.show()
+
+from scipy.stats import linregress
+# Linear Regression on x-var and ln(y-var)
+line = linregress(X, np.log(y))
+slope = line.slope
+y_int = line.intercept
+
+
+# Plot the line
+plt.plot(X, np.exp(y_int)*np.exp(slope)**y, color=red)
+
+[ERROR] : ValueError: Array shapes are incompatible for broadcasting.
+
+
+-----------------------
+
+test :
+
+from scipy.stats import linregress
+import numpy as np
+import matplotlib.pyplot as plt
+
+# 1. Régression linéaire sur X et ln(y)
+line = linregress(X, np.log(y))
+slope = line.slope
+y_int = line.intercept
+
+# 2. Création d'un X "lisse" en 1D pour tracer une belle courbe
+# (On utilise flatten() si tu réutilises le X_plot de scikit-learn qui était en 2D)
+X_smooth = np.linspace(X.min(), X.max(), 100)
+
+# 3. Calcul de la prédiction exponentielle avec la bonne formule mathématique
+# y = exp(intercept) * exp(slope * X)
+y_expo_pred = np.exp(y_int) * np.exp(slope * X_smooth)
+
+# 4. Tracé de la courbe
+plt.plot(X_smooth, y_expo_pred, color='red', linewidth=2, label='Prédiction (Exponentielle)')
+plt.legend()
+plt.show()
