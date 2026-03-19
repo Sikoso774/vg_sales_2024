@@ -1,0 +1,362 @@
+[3/19/2026 23:0] INFO: Activating extension.
+[3/19/2026 23:0] INFO: Loading globals and resource paths.
+[3/19/2026 23:0] INFO: Successfully loaded all globals.
+[3/19/2026 23:0] INFO: Activated extension.
+[3/19/2026 23:0] INFO: Fetching the scene name for probably render file file:///home/zolen/Documents/dataset/presentation.py.
+[3/19/2026 23:0] INFO: Asked user for a new scene name and recieved "TopPublishersScene".
+[3/19/2026 23:0] INFO: Creating a new running configuration for file "/home/zolen/Documents/dataset/presentation.py"
+[3/19/2026 23:0] INFO: Attempting to render via the running configuration {
+    "srcRootFolder": "/home/zolen/Documents/dataset",
+    "srcPath": "/home/zolen/Documents/dataset/presentation.py",
+    "moduleName": "presentation",
+    "isUsingConfFile": false,
+    "manimConfig": {
+        "media_dir": "media",
+        "video_dir": "{media_dir}/videos/{module_name}/{quality}",
+        "images_dir": "{media_dir}/images/{module_name}",
+        "quality": "high_quality",
+        "image_name": "{scene_name}_{version}{extension}",
+        "frame_rate": "60",
+        "quality_map": {
+            "fourk_quality": "2160p60",
+            "production_quality": "1440p60",
+            "high_quality": "1080p60",
+            "medium_quality": "720p30",
+            "low_quality": "480p15",
+            "example_quality": "480p30"
+        }
+    },
+    "document": {
+        "uri": {
+            "$mid": 1,
+            "fsPath": "/home/zolen/Documents/dataset/presentation.py",
+            "external": "file:///home/zolen/Documents/dataset/presentation.py",
+            "path": "/home/zolen/Documents/dataset/presentation.py",
+            "scheme": "file"
+        },
+        "fileName": "/home/zolen/Documents/dataset/presentation.py",
+        "isUntitled": false,
+        "languageId": "python",
+        "version": 2,
+        "isClosed": false,
+        "isDirty": false,
+        "encoding": "utf8",
+        "eol": 1,
+        "lineCount": 85
+    },
+    "sceneName": "TopPublishersScene"
+},
+{
+    "cliArguments": [],
+    "predictedVideoOutputPath": "media/videos/presentation/1080p60/TopPublishersScene.mp4",
+    "predictedImageOutputPath": "media/images/presentation/ManimCE_v0.16.0.post0"
+}
+[3/19/2026 23:0] INFO: Default manim path is found as "manim"
+[3/19/2026 23:0] INFO: Using python environment "dataset" for manim.
+[3/19/2026 23:0] INFO: Resolved manim path: /home/zolen/Documents/dataset/.venv/bin/python/bin/manim (from environment: /home/zolen/Documents/dataset/.venv/bin/python)
+[3/19/2026 23:0] ERROR: Manim Sideview: Manim is not found in PATH or at the specified location "/home/zolen/Documents/dataset/.venv/bin/python/bin/manim". Please ensure manim is installed correctly or specify a valid path in settings.
+[3/19/2026 23:1] INFO: Fetching the scene name for probably render file file:///home/zolen/Documents/dataset/presentation.py.
+[3/19/2026 23:1] INFO: Asked user for a new scene name and recieved "TopPublishersScene".
+[3/19/2026 23:1] INFO: Creating a new running configuration for file "/home/zolen/Documents/dataset/presentation.py"
+[3/19/2026 23:1] INFO: Attempting to render via the running configuration {
+    "srcRootFolder": "/home/zolen/Documents/dataset",
+    "srcPath": "/home/zolen/Documents/dataset/presentation.py",
+    "moduleName": "presentation",
+    "isUsingConfFile": false,
+    "manimConfig": {
+        "media_dir": "media",
+        "video_dir": "{media_dir}/videos/{module_name}/{quality}",
+        "images_dir": "{media_dir}/images/{module_name}",
+        "quality": "high_quality",
+        "image_name": "{scene_name}_{version}{extension}",
+        "frame_rate": "60",
+        "quality_map": {
+            "fourk_quality": "2160p60",
+            "production_quality": "1440p60",
+            "high_quality": "1080p60",
+            "medium_quality": "720p30",
+            "low_quality": "480p15",
+            "example_quality": "480p30"
+        }
+    },
+    "document": {
+        "uri": {
+            "$mid": 1,
+            "fsPath": "/home/zolen/Documents/dataset/presentation.py",
+            "external": "file:///home/zolen/Documents/dataset/presentation.py",
+            "path": "/home/zolen/Documents/dataset/presentation.py",
+            "scheme": "file"
+        },
+        "fileName": "/home/zolen/Documents/dataset/presentation.py",
+        "isUntitled": false,
+        "languageId": "python",
+        "version": 2,
+        "isClosed": false,
+        "isDirty": false,
+        "encoding": "utf8",
+        "eol": 1,
+        "lineCount": 85
+    },
+    "sceneName": "TopPublishersScene"
+},
+{
+    "cliArguments": [],
+    "predictedVideoOutputPath": "media/videos/presentation/1080p60/TopPublishersScene.mp4",
+    "predictedImageOutputPath": "media/images/presentation/ManimCE_v0.16.0.post0"
+}
+[3/19/2026 23:1] INFO: Default manim path is found as "/home/zolen/Documents/dataset/.venv/bin/manim"
+[3/19/2026 23:1] INFO: [29109] Spawned a new process for executing ""/home/zolen/Documents/dataset/.venv/bin/manim" "/home/zolen/Documents/dataset/presentation.py" TopPublishersScene
+".
+[3/19/2026 23:1] WARN: [29109] Captured stderr output "/home/zolen/Documents/dataset/.venv/lib/python3.12/site-packages/pydub/utils.py:300: SyntaxWarning: invalid escape sequence '\('
+  m = re.match('([su]([0-9]{1,2})p?) \(([0-9]{1,2}) bit\)$', token)
+/home/zolen/Documents/dataset/.venv/lib/python3.12/site-packages/pydub/utils.py:301: SyntaxWarning: invalid escape sequence '\('
+  m2 = re.match('([su]([0-9]{1,2})p?)( \(default\))?$', token)
+/home/zolen/Documents/dataset/.venv/lib/python3.12/site-packages/pydub/utils.py:310: SyntaxWarning: invalid escape sequence '\('
+  elif re.match('(flt)p?( \(default\))?$', token):
+/home/zolen/Documents/dataset/.venv/lib/python3.12/site-packages/pydub/utils.py:314: SyntaxWarning: invalid escape sequence '\('
+  elif re.match('(dbl)p?( \(default\))?$', token):
+"
+[3/19/2026 23:1] INFO: [29109] RE: "Manim Community v0.20.1
+
+"
+[3/19/2026 23:1] WARN: [29109] Captured stderr output "
+Animation 0: Write(Text('Top des éditeurs les mieux notés')):   0%|\t\t  | 0/120 [00:00<?, ?it/s]"
+[3/19/2026 23:1] WARN: [29109] Captured stderr output "
+Animation 0: Write(Text('Top des éditeurs les mieux notés')):   5%|▌\t\t | 6/120 [00:00<00:02, 56.82it/s]"
+[3/19/2026 23:1] WARN: [29109] Captured stderr output "
+Animation 0: Write(Text('Top des éditeurs les mieux notés')):  12%|█▏\t\t| 14/120 [00:00<00:01, 68.74it/s]"
+[3/19/2026 23:1] WARN: [29109] Captured stderr output "
+Animation 0: Write(Text('Top des éditeurs les mieux notés')):  19%|█▉\t\t| 23/120 [00:00<00:01, 76.26it/s]"
+[3/19/2026 23:1] WARN: [29109] Captured stderr output "
+Animation 0: Write(Text('Top des éditeurs les mieux notés')):  26%|██▌\t   | 31/120 [00:00<00:01, 73.81it/s]"
+[3/19/2026 23:1] WARN: [29109] Captured stderr output "
+Animation 0: Write(Text('Top des éditeurs les mieux notés')):  32%|███▎\t  | 39/120 [00:00<00:01, 73.98it/s]"
+[3/19/2026 23:1] WARN: [29109] Captured stderr output "
+Animation 0: Write(Text('Top des éditeurs les mieux notés')):  39%|███▉\t  | 47/120 [00:00<00:01, 71.66it/s]"
+[3/19/2026 23:1] WARN: [29109] Captured stderr output "
+Animation 0: Write(Text('Top des éditeurs les mieux notés')):  46%|████▌\t | 55/120 [00:00<00:00, 71.01it/s]"
+[3/19/2026 23:1] WARN: [29109] Captured stderr output "
+Animation 0: Write(Text('Top des éditeurs les mieux notés')):  52%|█████▎\t| 63/120 [00:00<00:00, 67.34it/s]"
+[3/19/2026 23:1] WARN: [29109] Captured stderr output "
+Animation 0: Write(Text('Top des éditeurs les mieux notés')):  59%|█████▉\t| 71/120 [00:01<00:00, 69.14it/s]"
+[3/19/2026 23:1] WARN: [29109] Captured stderr output "
+Animation 0: Write(Text('Top des éditeurs les mieux notés')):  67%|██████▋   | 80/120 [00:01<00:00, 73.53it/s]"
+[3/19/2026 23:1] WARN: [29109] Captured stderr output "
+Animation 0: Write(Text('Top des éditeurs les mieux notés')):  73%|███████▎  | 88/120 [00:01<00:00, 74.82it/s]"
+[3/19/2026 23:1] WARN: [29109] Captured stderr output "
+Animation 0: Write(Text('Top des éditeurs les mieux notés')):  80%|████████  | 96/120 [00:01<00:00, 73.51it/s]"
+[3/19/2026 23:1] WARN: [29109] Captured stderr output "
+Animation 0: Write(Text('Top des éditeurs les mieux notés')):  88%|████████▊ | 105/120 [00:01<00:00, 75.90it/s]"
+[3/19/2026 23:1] WARN: [29109] Captured stderr output "
+Animation 0: Write(Text('Top des éditeurs les mieux notés')):  95%|█████████▌| 114/120 [00:01<00:00, 79.61it/s]"
+[3/19/2026 23:1] WARN: [29109] Captured stderr output "
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t   
+"
+[3/19/2026 23:1] INFO: [29109] RE: "[03/19/26 23:01:17] INFO\t Animation 0 : Partial\t  scene_file_writer.py:601
+\t\t\t\t\t\t\t movie file written in\t\t\t\t\t\t\t  
+\t\t\t\t\t\t\t '/home/zolen/Documents/dat\t\t\t\t\t\t 
+\t\t\t\t\t\t\t aset/media/videos/presenta\t\t\t\t\t\t 
+\t\t\t\t\t\t\t tion/1080p60/partial_movie\t\t\t\t\t\t 
+\t\t\t\t\t\t\t _files/TopPublishersScene/\t\t\t\t\t\t 
+\t\t\t\t\t\t\t 3544663784_1504766886_2231\t\t\t\t\t\t 
+\t\t\t\t\t\t\t 32457.mp4'\t\t\t\t\t\t\t\t\t\t 
+"
+[3/19/2026 23:1] INFO: [29109] RE: "\t\t\t\t\tINFO\t Animation 1 : Partial\t  scene_file_writer.py:601
+\t\t\t\t\t\t\t movie file written in\t\t\t\t\t\t\t  
+\t\t\t\t\t\t\t '/home/zolen/Documents/dat\t\t\t\t\t\t 
+\t\t\t\t\t\t\t aset/media/videos/presenta\t\t\t\t\t\t 
+\t\t\t\t\t\t\t tion/1080p60/partial_movie\t\t\t\t\t\t 
+\t\t\t\t\t\t\t _files/TopPublishersScene/\t\t\t\t\t\t 
+\t\t\t\t\t\t\t 260329756_1432596116_23824\t\t\t\t\t\t 
+\t\t\t\t\t\t\t 19940.mp4'\t\t\t\t\t\t\t\t\t\t 
+"
+[3/19/2026 23:1] INFO: [29109] RE: "\t\t\t\t\tINFO\t Writing\t\t\t\t\t tex_file_writing.py:110
+\t\t\t\t\t\t\t \special{dvisvgm:raw <g\t\t\t\t\t\t\t
+\t\t\t\t\t\t\t id='unique000'>}5\special{d\t\t\t\t\t\t
+\t\t\t\t\t\t\t visvgm:raw </g>} to\t\t\t\t\t\t\t\t
+\t\t\t\t\t\t\t media/Tex/80535c2a91306081.\t\t\t\t\t\t
+\t\t\t\t\t\t\t tex\t\t\t\t\t\t\t\t\t\t\t\t
+"
+[3/19/2026 23:1] INFO: [29109] RE: "[03/19/26 23:01:18] ERROR\tLaTeX compilation error:\ttex_file_writing.py:313
+\t\t\t\t\t\t\t LaTeX Error: File\t\t\t\t\t\t\t\t  
+\t\t\t\t\t\t\t `standalone.cls' not found.\t\t\t\t\t\t
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
+"
+[3/19/2026 23:1] INFO: [29109] RE: "\t\t\t\t\tERROR\tContext of error:\t\t   tex_file_writing.py:347
+\t\t\t\t\t\t\t ->\t\t\t\t\t\t\t\t\t\t\t\t 
+\t\t\t\t\t\t\t \documentclass[preview]{sta\t\t\t\t\t\t
+\t\t\t\t\t\t\t ndalone}\t\t\t\t\t\t\t\t\t\t   
+\t\t\t\t\t\t\t \usepackage[english]{babel}\t\t\t\t\t\t
+\t\t\t\t\t\t\t \usepackage{amsmath}\t\t\t\t\t\t\t   
+\t\t\t\t\t\t\t \usepackage{amssymb}\t\t\t\t\t\t\t   
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
+"
+[3/19/2026 23:1] INFO: [29109] RE: "\t\t\t\t\tINFO\t You do not have package\t tex_file_writing.py:357
+\t\t\t\t\t\t\t standalone.cls installed.\t\t\t\t\t\t  
+"
+[3/19/2026 23:1] INFO: [29109] RE: "\t\t\t\t\tINFO\t Install standalone.cls it   tex_file_writing.py:357
+\t\t\t\t\t\t\t using your LaTeX package\t\t\t\t\t\t   
+\t\t\t\t\t\t\t manager, or check for\t\t\t\t\t\t\t  
+\t\t\t\t\t\t\t typos.\t\t\t\t\t\t\t\t\t\t\t 
+"
+[3/19/2026 23:1] INFO: [29109] RE: "\t\t\t\t\tERROR\tLaTeX compilation error:\ttex_file_writing.py:313
+\t\t\t\t\t\t\t Emergency stop.\t\t\t\t\t\t\t\t\t
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
+"
+[3/19/2026 23:1] INFO: [29109] RE: "\t\t\t\t\tERROR\tContext of error:\t\t   tex_file_writing.py:347
+\t\t\t\t\t\t\t ->\t\t\t\t\t\t\t\t\t\t\t\t 
+\t\t\t\t\t\t\t \documentclass[preview]{sta\t\t\t\t\t\t
+\t\t\t\t\t\t\t ndalone}\t\t\t\t\t\t\t\t\t\t   
+\t\t\t\t\t\t\t \usepackage[english]{babel}\t\t\t\t\t\t
+\t\t\t\t\t\t\t \usepackage{amsmath}\t\t\t\t\t\t\t   
+\t\t\t\t\t\t\t \usepackage{amssymb}\t\t\t\t\t\t\t   
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
+"
+[3/19/2026 23:1] WARN: [29109] Captured stderr output "╭───────────────────── Traceback (most recent call last) ──────────────────────╮
+│ /home/zolen/Documents/dataset/.venv/lib/python3.12/site-packages/manim/cli/r │
+│ ender/commands.py:125 in render\t\t\t\t\t\t\t\t\t\t\t  │
+│\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t  │
+│   122 │   │   │   try:\t\t\t\t\t\t\t\t\t\t\t\t\t   │
+│   123 │   │   │   │   with tempconfig({}):\t\t\t\t\t\t\t\t   │
+│   124 │   │   │   │   │   scene = SceneClass()\t\t\t\t\t\t\t   │
+│ ❱ 125 │   │   │   │   │   scene.render()\t\t\t\t\t\t\t\t\t │
+│   126 │   │   │   except Exception:\t\t\t\t\t\t\t\t\t\t  │
+│   127 │   │   │   │   error_console.print_exception()\t\t\t\t\t\t│
+│   128 │   │   │   │   sys.exit(1)\t\t\t\t\t\t\t\t\t\t\t│
+│\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t  │
+│ /home/zolen/Documents/dataset/.venv/lib/python3.12/site-packages/manim/scene │
+│ /scene.py:259 in render\t\t\t\t\t\t\t\t\t\t\t\t\t  │
+│\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t  │
+│\t256 │   │   """\t\t\t\t\t\t\t\t\t\t\t\t\t\t   │
+│\t257 │   │   self.setup()\t\t\t\t\t\t\t\t\t\t\t\t  │
+│\t258 │   │   try:\t\t\t\t\t\t\t\t\t\t\t\t\t\t  │
+│ ❱  259 │   │   │   self.construct()\t\t\t\t\t\t\t\t\t\t  │
+│\t260 │   │   except EndSceneEarlyException:\t\t\t\t\t\t\t\t│
+│\t261 │   │   │   pass\t\t\t\t\t\t\t\t\t\t\t\t\t  │
+│\t262 │   │   except RerunSceneException:\t\t\t\t\t\t\t\t   │
+│\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t  │
+│ /home/zolen/Documents/dataset/presentation.py:39 in construct\t\t\t\t│
+│\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t  │
+│   36 │   │   axes.shift(RIGHT * 2) # On décale un peu à droite pour laisser  │
+│   37 │   │\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t   │
+│   38 │   │   # Ajout des numéros uniquement sur l'axe X (de 5 à 10)\t\t  │
+│ ❱ 39 │   │   x_labels = axes.get_x_axis().add_numbers(font_size=24)\t\t  │
+│   40 │   │\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t   │
+│   41 │   │   self.play(Create(axes), Write(x_labels))\t\t\t\t\t\t│
+│   42\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t │
+│\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t  │
+│ /home/zolen/Documents/dataset/.venv/lib/python3.12/site-packages/manim/mobje │
+│ ct/graphing/number_line.py:557 in add_numbers\t\t\t\t\t\t\t\t│
+│\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t  │
+│   554 │   │   │   if x in excluding:\t\t\t\t\t\t\t\t\t\t │
+│   555 │   │   │   │   continue\t\t\t\t\t\t\t\t\t\t\t   │
+│   556 │   │   │   numbers.add(\t\t\t\t\t\t\t\t\t\t\t   │
+│ ❱ 557 │   │   │   │   self.get_number_mobject(\t\t\t\t\t\t\t   │
+│   558 │   │   │   │   │   x,\t\t\t\t\t\t\t\t\t\t\t\t │
+│   559 │   │   │   │   │   font_size=font_size,\t\t\t\t\t\t\t   │
+│   560 │   │   │   │   │   label_constructor=label_constructor,\t\t\t   │
+│\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t  │
+│ /home/zolen/Documents/dataset/.venv/lib/python3.12/site-packages/manim/mobje │
+│ ct/graphing/number_line.py:492 in get_number_mobject\t\t\t\t\t\t │
+│\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t  │
+│   489 │   │   if label_constructor is None:\t\t\t\t\t\t\t\t  │
+│   490 │   │   │   label_constructor = self.label_constructor\t\t\t\t │
+│   491 │   │\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t  │
+│ ❱ 492 │   │   num_mob = DecimalNumber(\t\t\t\t\t\t\t\t\t   │
+│   493 │   │   │   x,\t\t\t\t\t\t\t\t\t\t\t\t\t\t │
+│   494 │   │   │   font_size=font_size,\t\t\t\t\t\t\t\t\t   │
+│   495 │   │   │   mob_class=label_constructor,\t\t\t\t\t\t\t   │
+│\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t  │
+│ /home/zolen/Documents/dataset/.venv/lib/python3.12/site-packages/manim/mobje │
+│ ct/text/numbers.py:134 in __init__\t\t\t\t\t\t\t\t\t\t   │
+│\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t  │
+│   131 │   │   │   },\t\t\t\t\t\t\t\t\t\t\t\t\t\t │
+│   132 │   │   )\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t  │
+│   133 │   │\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t  │
+│ ❱ 134 │   │   self._set_submobjects_from_number(number)\t\t\t\t\t  │
+│   135 │   │   self.init_colors()\t\t\t\t\t\t\t\t\t\t\t │
+│   136 │\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t  │
+│   137 │   @property\t\t\t\t\t\t\t\t\t\t\t\t\t\t  │
+│\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t  │
+│ /home/zolen/Documents/dataset/.venv/lib/python3.12/site-packages/manim/mobje │
+│ ct/text/numbers.py:160 in _set_submobjects_from_number\t\t\t\t\t   │
+│\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t  │
+│   157 │   │   self.submobjects = []\t\t\t\t\t\t\t\t\t\t  │
+│   158 │   │\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t  │
+│   159 │   │   num_string = self._get_num_string(number)\t\t\t\t\t  │
+│ ❱ 160 │   │   self.add(*(map(self._string_to_mob, num_string)))\t\t\t  │
+│   161 │   │\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t  │
+│   162 │   │   # Add non-numerical bits\t\t\t\t\t\t\t\t\t   │
+│   163 │   │   if self.show_ellipsis:\t\t\t\t\t\t\t\t\t\t │
+│\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t  │
+│ /home/zolen/Documents/dataset/.venv/lib/python3.12/site-packages/manim/mobje │
+│ ct/text/numbers.py:227 in _string_to_mob\t\t\t\t\t\t\t\t\t │
+│\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t  │
+│   224 │   │   │   mob_class = self.mob_class\t\t\t\t\t\t\t\t │
+│   225 │   │\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t  │
+│   226 │   │   if string not in string_to_mob_map:\t\t\t\t\t\t\t│
+│ ❱ 227 │   │   │   string_to_mob_map[string] = mob_class(string, **kwargs)\t│
+│   228 │   │   mob = string_to_mob_map[string].copy()\t\t\t\t\t\t │
+│   229 │   │   mob.font_size = self._font_size\t\t\t\t\t\t\t\t│
+│   230 │   │   return mob\t\t\t\t\t\t\t\t\t\t\t\t\t │
+│\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t  │
+│ /home/zolen/Documents/dataset/.venv/lib/python3.12/site-packages/manim/mobje │
+│ ct/text/tex_mobject.py:329 in __init__\t\t\t\t\t\t\t\t\t   │
+│\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t  │
+│   326 │   │   │   │   │   │   """,\t\t\t\t\t\t\t\t\t\t   │
+│   327 │   │   │   │   │   ),\t\t\t\t\t\t\t\t\t\t\t\t │
+│   328 │   │   │   │   )\t\t\t\t\t\t\t\t\t\t\t\t\t  │
+│ ❱ 329 │   │   │   raise compilation_error\t\t\t\t\t\t\t\t\t│
+│   330 │   │   self.set_color_by_tex_to_color_map(self.tex_to_color_map)\t  │
+│   331 │   │\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t  │
+│   332 │   │   if self.organize_left_to_right:\t\t\t\t\t\t\t\t│
+│\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t  │
+│ /home/zolen/Documents/dataset/.venv/lib/python3.12/site-packages/manim/mobje │
+│ ct/text/tex_mobject.py:306 in __init__\t\t\t\t\t\t\t\t\t   │
+│\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t  │
+│   303 │   │   │   joined_string = self._join_tex_strings_with_unique_delimin │
+│   304 │   │   │   │   self.tex_strings, self.substrings_to_isolate\t\t   │
+│   305 │   │   │   )\t\t\t\t\t\t\t\t\t\t\t\t\t\t  │
+│ ❱ 306 │   │   │   super().__init__(\t\t\t\t\t\t\t\t\t\t  │
+│   307 │   │   │   │   joined_string,\t\t\t\t\t\t\t\t\t\t │
+│   308 │   │   │   │   tex_environment=self.tex_environment,\t\t\t\t  │
+│   309 │   │   │   │   tex_template=self.tex_template,\t\t\t\t\t\t│
+│\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t  │
+│ /home/zolen/Documents/dataset/.venv/lib/python3.12/site-packages/manim/mobje │
+│ ct/text/tex_mobject.py:81 in __init__\t\t\t\t\t\t\t\t\t\t│
+│\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t  │
+│\t78 │   │   self.tex_template: TexTemplate = tex_template\t\t\t\t  │
+│\t79 │   │\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t  │
+│\t80 │   │   self.tex_string = tex_string\t\t\t\t\t\t\t\t   │
+│ ❱  81 │   │   file_name = tex_to_svg_file(\t\t\t\t\t\t\t\t   │
+│\t82 │   │   │   self._get_modified_expression(tex_string),\t\t\t\t │
+│\t83 │   │   │   environment=self.tex_environment,\t\t\t\t\t\t  │
+│\t84 │   │   │   tex_template=self.tex_template,\t\t\t\t\t\t\t│
+│\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t  │
+│ /home/zolen/Documents/dataset/.venv/lib/python3.12/site-packages/manim/utils │
+│ /tex_file_writing.py:65 in tex_to_svg_file\t\t\t\t\t\t\t\t   │
+│\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t  │
+│\t62 │   if svg_file.exists():\t\t\t\t\t\t\t\t\t\t\t  │
+│\t63 │   │   return svg_file\t\t\t\t\t\t\t\t\t\t\t\t│
+│\t64 │\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t  │
+│ ❱  65 │   dvi_file = compile_tex(\t\t\t\t\t\t\t\t\t\t\t│
+│\t66 │   │   tex_file,\t\t\t\t\t\t\t\t\t\t\t\t\t  │
+│\t67 │   │   tex_template.tex_compiler,\t\t\t\t\t\t\t\t\t │
+│\t68 │   │   tex_template.output_format,\t\t\t\t\t\t\t\t\t│
+│\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t  │
+│ /home/zolen/Documents/dataset/.venv/lib/python3.12/site-packages/manim/utils │
+│ /tex_file_writing.py:211 in compile_tex\t\t\t\t\t\t\t\t\t  │
+│\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t  │
+│   208 │   │   if cp.returncode != 0:\t\t\t\t\t\t\t\t\t\t │
+│   209 │   │   │   log_file = tex_file.with_suffix(".log")\t\t\t\t\t│
+│   210 │   │   │   print_all_tex_errors(log_file, tex_compiler, tex_file)\t │
+│ ❱ 211 │   │   │   raise ValueError(\t\t\t\t\t\t\t\t\t\t  │
+│   212 │   │   │   │   f"{tex_compiler} error converting to"\t\t\t\t  │
+│   213 │   │   │   │   f" {output_format[1:]}. See log output above or"\t   │
+│   214 │   │   │   │   f" the log file: {log_file}",\t\t\t\t\t\t  │
+╰──────────────────────────────────────────────────────────────────────────────╯
+ValueError: latex error converting to dvi. See log output above or the log file:
+media/Tex/80535c2a91306081.log
+"
+[3/19/2026 23:1] ERROR: Manim Sideview: Error rendering file (exit code 1). Check the output for more details.
+[3/19/2026 23:1] INFO: [29109] Execution returned code=1 in 6.986 seconds returned signal null 
